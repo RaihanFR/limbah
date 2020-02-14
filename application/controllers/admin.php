@@ -8,6 +8,8 @@ class Admin extends CI_Controller
 	public function index()
 
 	{
+		
+		"ALI GOBLOK RAIHAN BANGSAT"
 
 
 		$data['title'] = 'Dashboard Admin';
