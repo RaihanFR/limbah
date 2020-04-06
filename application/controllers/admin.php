@@ -13,7 +13,7 @@ class Admin extends CI_Controller
 
 		$data['title'] = 'Dashboard Admin';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
-		echo 'Selamat datang ' . $data['user']['name'];
+		echo 'Selamat datang hafiz ganteng' . $data['user']['name'];
 
 
 
